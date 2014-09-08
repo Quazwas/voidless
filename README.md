@@ -6,8 +6,8 @@ Current Important Bugs: None Yet.
 {To-Do}
 
 [o]Version 0.001-0.005:
-  - [o]Basic Networking
-  - [o]Basic Movement
+  - [x]Basic Networking
+  - [x]Basic Movement
   - [o]Weapons
   - [o]Ship Customisation
   - [o]Level
