@@ -27,4 +27,6 @@ Current Important Bugs: None Yet.
 { Updates }
 
 Version 0.001:
-  - Nothin' Yet
+  - Basic Networking
+  - Basic Movement(Tighter and better* than version -1)
+  - All scripts designed to be more extendable than version -1.
