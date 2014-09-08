@@ -1,6 +1,6 @@
 voidless
 ========
-**Current Version: Alpha 0.000.**
+**Current Version: Alpha 0.001.**
 
 **Current Important Bugs:**
   - Player Ships don't collide.
