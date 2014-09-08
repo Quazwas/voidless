@@ -12,6 +12,7 @@ Current Important Bugs: None Yet.
   - [o]Ship Customisation
   - [o]Level
   - [o]Annihilation Gamemode(DM)
+
 [o]Version 0.005-0.01:
   - [o]Advanced Movement(Warp, Shift et cetera)
   - [o]Better Networking(Interpolation or Prediction)
@@ -19,6 +20,7 @@ Current Important Bugs: None Yet.
   - [o]Multiple Weapon Types(Phys, Ray and Util)
   - [o]Cargo Capture Gamemode (CTF)
   - [o]Faction Annihilation(TDM)
+
 [o] Version 0.01 >:
   -Undecided. Feedback Needed.
 
