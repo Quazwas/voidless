@@ -5,21 +5,21 @@ Current Important Bugs: None Yet.
 
 {To-Do}
 
-[]Version 0.001-0.005:
-  - []Basic Networking
-  - []Basic Movement
-  - []Weapons
-  - []Ship Customisation
-  - []Level
-  - []Annihilation Gamemode(DM)
-[]Version 0.005-0.01:
-  - []Advanced Movement(Warp, Shift et cetera)
-  - []Better Networking(Interpolation or Prediction)
-  - []Basic Textures
-  - []Multiple Weapon Types(Phys, Ray and Util)
-  - []Cargo Capture Gamemode (CTF)
-  - []Faction Annihilation(TDM)
-[] Version 0.01 >:
+[o]Version 0.001-0.005:
+  - [o]Basic Networking
+  - [o]Basic Movement
+  - [o]Weapons
+  - [o]Ship Customisation
+  - [o]Level
+  - [o]Annihilation Gamemode(DM)
+[o]Version 0.005-0.01:
+  - [o]Advanced Movement(Warp, Shift et cetera)
+  - [o]Better Networking(Interpolation or Prediction)
+  - [o]Basic Textures
+  - [o]Multiple Weapon Types(Phys, Ray and Util)
+  - [o]Cargo Capture Gamemode (CTF)
+  - [o]Faction Annihilation(TDM)
+[o] Version 0.01 >:
   -Undecided. Feedback Needed.
 
 { Updates }
