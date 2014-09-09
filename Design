@@ -5,9 +5,28 @@
 [o] Game Modes
 
 Multiple Weapons
-  X axis = Power vs Fuel cost
-  Y axis = Range vs Accuracy
+  X axis = Power (10) vs Fuel cost (1)
+  Y axis = Range (10) vs Accuracy (1)
+  A) Battle Ship, B) Utility Ship, C) Fighter Ship, D) Stealth Ship
+      Average Weapon Abilities
+  10 - - - - - - - - - -
+   9 - - - - - - - - - -
+   8 - - B - - - - A - -
+   7 - - - - - - - - - -
+   6 - - - - - - - - - -
+   5 - - - - - - - - - -
+   4 - - - - - - - - - -
+   3 - - D - - - - C - -
+   2 - - - - - - - - - -
+   1 - - - - - - - - - -
+    1 2 3 4 5 6 7 8 9 10
+    
 
   Weapon types = Missile (Locked into ship orientation), Drone (semi-automated aiming and shooting), Turret ([Large ship only] aimed via mouse)
   
-  
+  Bullet Types
+    Tracker   - Physical    - Follows Targeted Ship
+    Seeker    - Physical    - Follows Closest ship (not teammates ship)
+    Explosive - Physical    - Explodes (may disrupt sheilds)
+    Plasma    - NonPhysical - May disrupt sheild
+    Laser     - NonPhysical - Fast & spammable
