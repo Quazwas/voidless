@@ -10,10 +10,10 @@ public class networkManager : MonoBehaviour {
 	public void joinServer(string ip, int port, string pass) {
 		Network.Connect(ip, port, pass);
 	}
-	public void spawnPlayer(GameObject player, Transform spawnPoint) {
-		GameObject playerClone;
+	public GameObject playerClone;
+	public void spawnPlayer(GameObject player, Transform spawnPoint) {	
 		playerClone = Network.Instantiate(player, spawnPoint.position, spawnPoint.rotation, 0) as GameObject;
-		//To Do: Send playerClone off for customisation.
+		playerClone.GetComponent<initAndRPC>().init(this.gameObject);
 	}
 	void OnServerInitialized(){
 		Debug.Log("Server Initialized.");

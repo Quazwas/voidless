@@ -9,7 +9,7 @@ public class shipSelect : MonoBehaviour {
 	string currentShipName="Please Select a ship";
 	public GameObject currentShip;
 	public GameObject confShip;
-	Material mat;
+	public Material mat;
 	void Start() {
 		confShip = Instantiate(currentShip, new Vector3(0,0,0), new Quaternion(0,0,0,0)) as GameObject;
 		mat=GameObject.Find("starFireMk1_v001/Cube").GetComponent<MeshRenderer>().material;
@@ -70,9 +70,9 @@ public class shipSelect : MonoBehaviour {
 	}
 
 	void OnServerInitialized() {
-		GetComponent<networkManager>().spawnPlayer(confShip, spawnPoint.transform);
+		GetComponent<networkManager>().spawnPlayer(currentShip, spawnPoint.transform);
 	}
 	void OnConnectedToServer() {
-		GetComponent<networkManager>().spawnPlayer(confShip, spawnPoint.transform);
+		GetComponent<networkManager>().spawnPlayer(currentShip, spawnPoint.transform);
 	}
 }

@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Miscellaneous\asteroids.cs" />
+     <Compile Include="Assets\Scripts\Miscellaneous\colourChange.cs" />
      <Compile Include="Assets\Scripts\Miscellaneous\menuCamera.cs" />
      <Compile Include="Assets\Scripts\Movement\basicMovement.cs" />
+     <Compile Include="Assets\Scripts\Networking\initAndRPC.cs" />
      <Compile Include="Assets\Scripts\Networking\makeClientOnly.cs" />
      <Compile Include="Assets\Scripts\Networking\networkInterface.cs" />
      <Compile Include="Assets\Scripts\Networking\networkManager.cs" />
