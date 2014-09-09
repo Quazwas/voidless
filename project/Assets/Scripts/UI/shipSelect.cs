@@ -12,7 +12,7 @@ public class shipSelect : MonoBehaviour {
 	public Material mat;
 	void Start() {
 		confShip = Instantiate(currentShip, new Vector3(0,0,0), new Quaternion(0,0,0,0)) as GameObject;
-		mat=GameObject.Find("starFireMk1_v001/Cube").GetComponent<MeshRenderer>().material;
+		mat=GameObject.Find("starFireMk1_v001/starFireMk1_v001_client").GetComponent<MeshRenderer>().material;
 	}
 
 	void updateShip() {
@@ -70,9 +70,11 @@ public class shipSelect : MonoBehaviour {
 	}
 
 	void OnServerInitialized() {
+		Destroy(confShip);
 		GetComponent<networkManager>().spawnPlayer(currentShip, spawnPoint.transform);
 	}
 	void OnConnectedToServer() {
+		Destroy(confShip);
 		GetComponent<networkManager>().spawnPlayer(currentShip, spawnPoint.transform);
 	}
 }
