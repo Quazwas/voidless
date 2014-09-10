@@ -12,7 +12,8 @@ public class shipSelect : MonoBehaviour {
 	public Material mat;
 	void Start() {
 		confShip = Instantiate(currentShip, new Vector3(0,0,0), new Quaternion(0,0,0,0)) as GameObject;
-		mat=GameObject.Find("starFireMk1_v001/starFireMk1_v001_client").GetComponent<MeshRenderer>().material;
+		confShip.GetComponent<clientView>().init();
+		mat=GameObject.Find("starFireMk1_v001/Cube").GetComponent<MeshRenderer>().material;
 	}
 
 	void updateShip() {

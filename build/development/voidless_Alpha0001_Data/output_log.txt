@@ -1,54 +1,41 @@
 Initialize engine version: 4.5.3f3 (fca41a4fabea)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon R9 200 Series (ID=0x6810)
-    Vendor:   ATI
-    VRAM:     2030 MB
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0x106)
+    Vendor:   Intel
+    VRAM:     64 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-- Completed reload, in  0.070 seconds
-desktop: 1920x1080 60Hz; virtual: 3520x1080 at 0,0
+Platform assembly: E:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading E:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.799 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Connected to Server
+isMine!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-networkManager:OnConnectedToServer() (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:22)
+clientView:action() (at G:\voidless\project\Assets\Scripts\Networking\clientView.cs:16)
+clientView:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\Networking\clientView.cs:33)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+networkManager:startServer(Int32, Int32, Boolean) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:7)
+networkInterface:OnGUI() (at G:\voidless\project\Assets\Scripts\Networking\networkInterface.cs:10)
  
 (Filename: G Line: 0)
 
-Initialize engine version: 4.5.3f3 (fca41a4fabea)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon R9 200 Series (ID=0x6810)
-    Vendor:   ATI
-    VRAM:     2030 MB
-Begin MonoManager ReloadAssembly
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-- Completed reload, in  0.037 seconds
-desktop: 1920x1080 60Hz; virtual: 3520x1080 at 0,0
-<RI> Initializing input.
-<RI> Input initialized.
-Connected to Server
+Server Initialized.
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-networkManager:OnConnectedToServer() (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:22)
+networkManager:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:19)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+networkManager:startServer(Int32, Int32, Boolean) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:7)
+networkInterface:OnGUI() (at G:\voidless\project\Assets\Scripts\Networking\networkInterface.cs:10)
  
 (Filename: G Line: 0)
 

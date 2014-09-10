@@ -13,7 +13,6 @@ public class networkManager : MonoBehaviour {
 	public GameObject playerClone;
 	public void spawnPlayer(GameObject player, Transform spawnPoint) {	
 		playerClone = Network.Instantiate(player, spawnPoint.position, spawnPoint.rotation, 0) as GameObject;
-		playerClone.GetComponent<initAndRPC>().init(this.gameObject);
 	}
 	void OnServerInitialized(){
 		Debug.Log("Server Initialized.");

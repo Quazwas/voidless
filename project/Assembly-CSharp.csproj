@@ -51,12 +51,15 @@
      <Compile Include="Assets\Scripts\Miscellaneous\menuCamera.cs" />
      <Compile Include="Assets\Scripts\Movement\basicMovement.cs" />
      <Compile Include="Assets\Scripts\Networking\clientView.cs" />
-     <Compile Include="Assets\Scripts\Networking\initAndRPC.cs" />
      <Compile Include="Assets\Scripts\Networking\makeClientOnly.cs" />
      <Compile Include="Assets\Scripts\Networking\networkInterface.cs" />
      <Compile Include="Assets\Scripts\Networking\networkManager.cs" />
      <Compile Include="Assets\Scripts\UI\shipSelect.cs" />
      <Compile Include="Assets\Scripts\UI\speedDisplay.cs" />
+     <Compile Include="Assets\Scripts\shipConfigs\config_starfireMk1.cs" />
+     <Compile Include="Assets\Scripts\shipConfigs\makeShip.cs" />
+     <Compile Include="Assets\Scripts\shipConfigs\shipProperties.cs" />
+     <Compile Include="Assets\Scripts\shipConfigs\weaponSelection.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
