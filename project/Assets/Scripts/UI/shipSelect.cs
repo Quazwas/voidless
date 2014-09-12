@@ -10,15 +10,20 @@ public class shipSelect : MonoBehaviour {
 	public GameObject currentShip;
 	public GameObject confShip;
 	public Material mat;
+	public weaponSelection wepComp;
 	void Start() {
 		confShip = Instantiate(currentShip, new Vector3(0,0,0), new Quaternion(0,0,0,0)) as GameObject;
+		wepComp=GetComponent<weaponSelection>();
+		wepComp.ship=confShip;
+		wepComp.init();
 		confShip.GetComponent<clientView>().init();
 		mat=GameObject.Find("starFireMk1_v001/Cube").GetComponent<MeshRenderer>().material;
 	}
 
 	void updateShip() {
-		Destroy(confShip);
+		//Destroy(confShip);
 		confShip = Instantiate(currentShip, new Vector3(0,0,0), new Quaternion(0,0,0,0)) as GameObject;
+		wepComp.ship=confShip;
 		mat=GameObject.Find("starFireMk1_v001/Cube").GetComponent<MeshRenderer>().material;
 	}
 

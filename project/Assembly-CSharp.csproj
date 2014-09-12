@@ -56,10 +56,10 @@
      <Compile Include="Assets\Scripts\Networking\networkManager.cs" />
      <Compile Include="Assets\Scripts\UI\shipSelect.cs" />
      <Compile Include="Assets\Scripts\UI\speedDisplay.cs" />
-     <Compile Include="Assets\Scripts\shipConfigs\config_starfireMk1.cs" />
-     <Compile Include="Assets\Scripts\shipConfigs\makeShip.cs" />
-     <Compile Include="Assets\Scripts\shipConfigs\shipProperties.cs" />
-     <Compile Include="Assets\Scripts\shipConfigs\weaponSelection.cs" />
+     <Compile Include="Assets\Scripts\configs\makeShip.cs" />
+     <Compile Include="Assets\Scripts\configs\shipProperties.cs" />
+     <Compile Include="Assets\Scripts\configs\weaponSelection.cs" />
+     <Compile Include="Assets\Scripts\configs\wepProperties.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

@@ -13,12 +13,17 @@ public class networkManager : MonoBehaviour {
 	public GameObject playerClone;
 	public void spawnPlayer(GameObject player, Transform spawnPoint) {	
 		playerClone = Network.Instantiate(player, spawnPoint.position, spawnPoint.rotation, 0) as GameObject;
+		//int[] wepLocs = GetComponent<weaponSelection>().wepLocs;
+/*		for(int i = 0; i<wepLocs.Length; i++) {
+			playerClone.GetComponent<makeShip>().addWepLoc(wepLocs[i]);
+		}*/
+		playerClone.GetComponent<makeShip>().call();
 	}
 	void OnServerInitialized(){
-		Debug.Log("Server Initialized.");
+		//Debug.Log("Server Initialized.");
 	}
 	void OnConnectedToServer(){
-		Debug.Log("Connected to Server");
+		//Debug.Log("Connected to Server");
 	}
 	void OnPlayerDisconnected(NetworkPlayer player) {
 			if(Network.isServer){
