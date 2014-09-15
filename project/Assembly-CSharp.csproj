@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Miscellaneous\asteroids.cs" />
      <Compile Include="Assets\Scripts\Miscellaneous\colourChange.cs" />
      <Compile Include="Assets\Scripts\Miscellaneous\menuCamera.cs" />
+     <Compile Include="Assets\Scripts\Miscellaneous\rainbows.cs" />
      <Compile Include="Assets\Scripts\Movement\basicMovement.cs" />
      <Compile Include="Assets\Scripts\Networking\clientView.cs" />
      <Compile Include="Assets\Scripts\Networking\makeClientOnly.cs" />
@@ -60,6 +61,8 @@
      <Compile Include="Assets\Scripts\configs\shipProperties.cs" />
      <Compile Include="Assets\Scripts\configs\weaponSelection.cs" />
      <Compile Include="Assets\Scripts\configs\wepProperties.cs" />
+     <Compile Include="Assets\Scripts\weapons\weaponCannons.cs" />
+     <Compile Include="Assets\Scripts\weapons\weaponPhasers.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

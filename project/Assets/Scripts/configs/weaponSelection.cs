@@ -12,9 +12,14 @@ public class weaponSelection : MonoBehaviour {
 	GameObject[] nodes;
 	public int[] wepLocs = new int[4];
 	int wepAmnt;
+	[SerializeField]
+	GameObject highlightObject;
+	GameObject highlight;
+	GameObject[] tempWeps;
 	public void init() {
 		wepLocs = new int[ship.GetComponent<shipProperties>().nodes.Length];
-		Debug.Log(ship.GetComponent<shipProperties>().nodes.Length);
+		tempWeps = new GameObject[ship.GetComponent<shipProperties>().nodes.Length];
+		//Debug.Log(ship.GetComponent<shipProperties>().nodes.Length);
 		nodes = ship.GetComponent<shipProperties>().nodes;
 		nodeTypes = ship.GetComponent<shipProperties>().nodeTypes;
 		length=nodes.Length;
@@ -31,6 +36,8 @@ public class weaponSelection : MonoBehaviour {
 						selNode=i;
 						selNodeType=nodeTypes[i];
 						bNodeSelected=true;
+						
+						highlight = Instantiate(highlightObject, nodes[i].transform.position, nodes[i].transform.rotation) as GameObject;
 					}
 				}
 			} else {
@@ -40,13 +47,14 @@ public class weaponSelection : MonoBehaviour {
 							wepLocs[selNode]=i;
 							updateNodes(selNode, i);
 							bNodeSelected=false;
+							Destroy(highlight);
 						}
 					}
 				}
 			}
-			for(int i =0; i<wepLocs.Length; i++) {
+			/*for(int i =0; i<wepLocs.Length; i++) {
 				GUI.Label(new Rect(15, 500+i*30,300,30), wepLocs[i].ToString());
-			}
+			}*/
 		}
 	}
 
@@ -57,9 +65,9 @@ public class weaponSelection : MonoBehaviour {
 			//if(wepCom[wi].id==wepID) {
 				for(int i =0; i<nodes.Length; i++) {
 					if(i==node) {
-						GameObject clone;
-						clone = Instantiate(wepCom.objPrefab, nodes[i].transform.position, nodes[i].transform.rotation) as GameObject;
-						clone.transform.parent=nodes[i].transform;
+						Destroy(tempWeps[i]);
+						tempWeps[i] = Instantiate(wepCom.objPrefab, nodes[i].transform.position, nodes[i].transform.rotation) as GameObject;
+						tempWeps[i].transform.parent=nodes[i].transform;
 					}
 				}
 			//}

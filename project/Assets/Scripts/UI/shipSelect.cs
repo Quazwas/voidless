@@ -21,10 +21,11 @@ public class shipSelect : MonoBehaviour {
 	}
 
 	void updateShip() {
-		//Destroy(confShip);
+		Destroy(confShip);
 		confShip = Instantiate(currentShip, new Vector3(0,0,0), new Quaternion(0,0,0,0)) as GameObject;
 		wepComp.ship=confShip;
 		mat=GameObject.Find("starFireMk1_v001/Cube").GetComponent<MeshRenderer>().material;
+		GetComponent<weaponSelection>().init();
 	}
 
 	void changeColour(Color color) {
@@ -32,13 +33,19 @@ public class shipSelect : MonoBehaviour {
 	}
 
 	int menuLocation;
-
+	[SerializeField]
+	GameObject mantaPrefab;
 	void OnGUI() {
 		if(!Network.isClient && !Network.isServer) {
 			GUI.Label(new Rect(15,85,300,30), "Ship: "+currentShipName);
 			if(GUI.Button(new Rect(15,110,300,30), "Starfire Mk I")) {
 				currentShipName = "Starfire Mk I";
 				currentShip = starfirePrefab;
+				updateShip();
+			}
+			if(GUI.Button(new Rect(15,145,300,30), "Manta Mk I")) {
+				currentShipName = "Manta Mk I";
+				currentShip = mantaPrefab;
 				updateShip();
 			}
 

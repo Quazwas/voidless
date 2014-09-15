@@ -1,10 +1,10 @@
 Initialize engine version: 4.5.3f3 (fca41a4fabea)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon R9 200 Series (ID=0x6810)
-    Vendor:   ATI
-    VRAM:     2030 MB
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0x102)
+    Vendor:   Intel
+    VRAM:     128 MB
 Begin MonoManager ReloadAssembly
 Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -14,28 +14,8 @@ Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed
 Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
 Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-- Completed reload, in  0.042 seconds
-desktop: 1920x1080 60Hz; virtual: 3520x1080 at 0,0
-<RI> Initializing input.
-<RI> Input initialized.
-Initialize engine version: 4.5.3f3 (fca41a4fabea)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon R9 200 Series (ID=0x6810)
-    Vendor:   ATI
-    VRAM:     2030 MB
-Begin MonoManager ReloadAssembly
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading G:\voidless\build\development\voidless_Alpha0001_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-- Completed reload, in  0.036 seconds
-desktop: 1920x1080 60Hz; virtual: 3520x1080 at 0,0
+- Completed reload, in  0.054 seconds
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 4
@@ -50,16 +30,17 @@ shipSelect:Start() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:18)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 weaponSelection:init() (at G:\voidless\project\Assets\Scripts\configs\weaponSelection.cs:17)
-shipSelect:Start() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:18)
+shipSelect:updateShip() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:28)
+shipSelect:OnGUI() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:49)
  
 (Filename: G Line: 0)
 
 4
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:36)
+makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:37)
 networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:80)
+shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:87)
 UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
 networkManager:startServer(Int32, Int32, Boolean) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:7)
 networkInterface:OnGUI() (at G:\voidless\project\Assets\Scripts\Networking\networkInterface.cs:10)
@@ -72,9 +53,9 @@ UnityEngine.Debug:Log(Object)
 makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
 UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
 UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:38)
+makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:39)
 networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:80)
+shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:87)
 UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
 networkManager:startServer(Int32, Int32, Boolean) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:7)
 networkInterface:OnGUI() (at G:\voidless\project\Assets\Scripts\Networking\networkInterface.cs:10)
@@ -87,9 +68,9 @@ UnityEngine.Debug:Log(Object)
 makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
 UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
 UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:38)
+makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:39)
 networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:80)
+shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:87)
 UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
 networkManager:startServer(Int32, Int32, Boolean) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:7)
 networkInterface:OnGUI() (at G:\voidless\project\Assets\Scripts\Networking\networkInterface.cs:10)
@@ -102,9 +83,9 @@ UnityEngine.Debug:Log(Object)
 makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
 UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
 UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:38)
+makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:39)
 networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:80)
+shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:87)
 UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
 networkManager:startServer(Int32, Int32, Boolean) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:7)
 networkInterface:OnGUI() (at G:\voidless\project\Assets\Scripts\Networking\networkInterface.cs:10)
@@ -117,129 +98,516 @@ UnityEngine.Debug:Log(Object)
 makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
 UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
 UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:38)
+makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:39)
 networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:80)
+shipSelect:OnServerInitialized() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:87)
 UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
 networkManager:startServer(Int32, Int32, Boolean) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:7)
 networkInterface:OnGUI() (at G:\voidless\project\Assets\Scripts\Networking\networkInterface.cs:10)
  
 (Filename: G Line: 0)
 
-4
+Secondary
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:36)
-networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnConnectedToServer() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:84)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
  
 (Filename: G Line: 0)
 
-3
+Secondary
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:38)
-networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnConnectedToServer() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:84)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
  
 (Filename: G Line: 0)
 
-3
+Secondary
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:38)
-networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnConnectedToServer() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:84)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
  
 (Filename: G Line: 0)
 
-3
+Secondary
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:38)
-networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnConnectedToServer() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:84)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
  
 (Filename: G Line: 0)
 
-3
+Secondary
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-makeShip:call() (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:38)
-networkManager:spawnPlayer(GameObject, Transform) (at G:\voidless\project\Assets\Scripts\Networking\networkManager.cs:20)
-shipSelect:OnConnectedToServer() (at G:\voidless\project\Assets\Scripts\UI\shipSelect.cs:84)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
  
 (Filename: G Line: 0)
 
-3
+Secondary
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
  
 (Filename: G Line: 0)
 
-3
+Secondary
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-makeShip:addWeapon(Int33, Int32) (at G:
-\voidlesine.Debug:Issets\al_ipts\configsStrkeShip.cs:15)
-
-
-(Uilename: G Line: 0)o
-g
-(Object)
-makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Asse3s
-Ucripts\configs\makeShip.cs:15g(
- 
-(Fil String, Object)
-UnityEngine0Debug:
-
-g(Object)
-makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\conf3gs
-\makeShip.c.Debug
-:I
-nternalm_Log(Int32 0)
-
-ing, Object)
-UnityEngine.Debug:Log(Object)
-makeShip:addWeapo3(
-Ut32, Ingine.DebugG:\voidless\project\Assets\Scripts\co
-nfigs\makeShip.cs:15)
- 
-(Filen
-ame: G Line: 0)
-
-n(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
- 
-(Filename: G3L
-Unity)E
-n
-gine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
  
 (Filename: G Line: 0)
 
-3
+Secondary
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-makeShip:addWeapon(Int32, Int32) (at G:\voidless\project\Assets\Scripts\configs\makeShip.cs:15)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
  
 (Filename: G Line: 0)
 
-The server has disconnected from the client. Most likely the server has shut down.
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
  
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 745)
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
+
+Secondary
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+weaponCannons:Update() (at G:\voidless\project\Assets\Scripts\weapons\weaponCannons.cs:20)
+ 
+(Filename: G Line: 0)
 

@@ -15,6 +15,7 @@ public class makeShip : MonoBehaviour {
 		Debug.Log(worldNull.GetComponent<wepProperties>().weapons.Length.ToString());
 		clone = Instantiate(worldNull.GetComponent<wepProperties>().weapons[wepID].objPrefab, nodes[nodeID].transform.position, nodes[nodeID].transform.rotation) as GameObject;
 		clone.transform.parent=nodes[nodeID].transform;
+		//clone.GetComponent<weapons>().ship=this.gameObject;
 	}
 
 	[RPC]
