@@ -12,9 +12,9 @@ voidless
 *[o]Version 0.001-0.005:*
   - [x]Basic Networking
   - [x]Basic Movement
-  - [o]Weapon . . . . . . . . .} Need to be
-  - [o]Ship Customisation }   done together.
-  - [o]Level
+  - [-]Weapon . . . . . . . . .} Need to be
+  - [x]Ship Customisation }   done together.
+  - [x]Level
   - [o]Annihilation Gamemode(DM)
 
 *[o]Version 0.005-0.01:*
