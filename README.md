@@ -1,10 +1,7 @@
 voidless
 ========
-**Current Version: Alpha 0.001.**
+**Current Version: Alpha 0.003**
 
-**Current Important Bugs:**
-  - Player Ships don't collide.
-  - GUI.Label() has some odd bugs, only in compiled version.
 
 **{To-Do}**
 -->>NEED TO COMMENT CODE...
@@ -28,10 +25,3 @@ voidless
 *[o] Version 0.01 >:*
 
   -Undecided. Feedback Needed.
-
-**{ Updates }**
-
-*Version 0.001:*
-  - Basic Networking
-  - Basic Movement(Tighter and better* than version -1)
-  - All scripts designed to be more extendable than version -1.
