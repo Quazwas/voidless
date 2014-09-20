@@ -8,7 +8,7 @@ Warning: Tom-speak
 
 
 
-Multiple Weapons
+            Multiple Weapons
 
 
 
@@ -31,7 +31,7 @@ Multiple Weapons
 
   Weapon types = Missile (Locked into ship orientation), Drone (semi-automated aiming and shooting), Turret ([Large ship only] aimed via mouse)
   
-  Bullet Types
+          Bullet Types
     Tracker   - Physical    - Follows Targeted Ship
     Seeker    - Physical    - Follows Closest ship (not teammates ship)
     Explosive - Physical    - Explodes (may disrupt sheilds)
@@ -52,7 +52,7 @@ defensive turret+drone = Lrg S
 
 
 
-Navigation
+                Navigation
 
 
 
@@ -67,7 +67,7 @@ sStation orientation lock (getkey = rotate)
 
 
 
-Upgrades
+                Upgrades
 
 
 
@@ -126,3 +126,34 @@ ships
     shield
     power(generation)
     ++
+
+
+
+                Levels
+
+
+
+                Game modes
+
+    Star Fleet
+2 teams standard deathmatch
+    Resource War
+CtF w/multiple flags
+    Expansion
+1 team defense(blue) / 1 team offense (red)
+red starts with 1 station + bonus
+blue starts with everything else
+red must capture blue territory (resource filled asteroids, stations, refueling drones, communications satellites, etc)
+red can capture any blue territory + gets bonus to capturing
+blue can only capture red territory next to blue territory + gets slight bonus when  near a blue capture point
+    Solar Flare
+Free for All
+    Colonisation
+Combination Resource war + Duel (each player may capture territory)
+winner has most territory
+players start with 'n' territories
+only adjacent territory may be captures
+-de facto truces
+    may be made with neighbouring players
+        i.e. players with territory adjacent to each other
+    only  'n' may be held by each player (suggest n=2)
