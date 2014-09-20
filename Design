@@ -19,7 +19,7 @@ Warning: Tom-speak
 
   X axis = Power (10) vs Fuel cost (1)
   Y axis = Range (10) vs Accuracy (1)
-  A) Battle Ship, B) Utility Ship, C) Fighter Ship, D) Stealth Ship
+  A) Battle S, B) Utility S, C) Fighter S, D) Stealth S
       Average Weapon Abilities
   10 - - - - - - - - - -
    9 - - - - - - - - - -
@@ -34,11 +34,11 @@ Warning: Tom-speak
     1 2 3 4 5 6 7 8 9 10
     
 
-  Weapon types = Missile (Locked into ship orientation), Drone (semi-automated aiming and shooting), Turret ([Large ship only] aimed via mouse)
+  Weapon types = Missile (Locked into s orientation), Drone (semi-automated aiming and shooting), Turret ([Lrg S only] aimed via mouse)
   
           Bullet Types
-    Tracker   - Physical    - Follows Targeted Ship
-    Seeker    - Physical    - Follows Closest ship (not teammates ship)
+    Tracker   - Physical    - Follows Targeted S
+    Seeker    - Physical    - Follows Closest S (not teammates S)
     Explosive - Physical    - Explodes (may disrupt sheilds)
     Plasma    - NonPhysical - May disrupt sheild
     Laser     - NonPhysical - Fast & spammable
