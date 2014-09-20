@@ -1,10 +1,17 @@
-[o] Multiple Weapons
-[o] Navigation system
-[o] Upgrades
+[x] Multiple Weapons
+[x] Navigation system
+[x] Upgrades
 [o] levels
 [o] Game Modes
 
+Warning: Tom-speak
+
+
+
 Multiple Weapons
+
+
+
   X axis = Power (10) vs Fuel cost (1)
   Y axis = Range (10) vs Accuracy (1)
   A) Battle Ship, B) Utility Ship, C) Fighter Ship, D) Stealth Ship
@@ -30,3 +37,92 @@ Multiple Weapons
     Explosive - Physical    - Explodes (may disrupt sheilds)
     Plasma    - NonPhysical - May disrupt sheild
     Laser     - NonPhysical - Fast & spammable
+
+
+
+key steer - mouse aim - Lrg S - turret style weaponry
+mouse steer- maneuverability - stealth + battle S
+
+turret style weaponry - mouse aim
+semi auto turret = drone
+no auto no maneaverability = missile G
+
+fast agile = Sml S
+defensive turret+drone = Lrg S
+
+
+
+Navigation
+
+
+
+radar
+onscreen box w/sidescreen arrow
+OR
+x-axis circle+frnttriangle w/rotational navigation
+
+home beacon recon (perma sidescreen arrow)
+tracker bots [if C&T] (sidescreen arrow)
+sStation orientation lock (getkey = rotate)
+
+
+
+Upgrades
+
+
+
+mutlipath trees
+OR
+upgrade slots
+
+    MpT
+    a
+   /  \
+  b  b
+ /  \/  \
+c  c   c
+/  \  \ / \
+d  d d  d
+
+US
+
+weapons
+    smll G = 2 slots
+    mdm G = 4 slots
+    lrg G = 6 slots
+
+    fill slots w/upgrade chips
+
+    chip:level ratio
+    1:1
+    2:2
+    4:3
+    6:4
+
+        chip types
+    efficiency
+    power
+    range
+    accuracy
+    ++
+    ++
+
+ships
+    smll S = 6 slots
+    lrg S = 9 slots
+
+    chip:level ratio
+    1:1
+    2:2
+    4:3
+    6:4
+    8:5
+    9:6
+
+        chip types
+    speed
+    force (hit thing = thing move)
+    agility
+    shield
+    power(generation)
+    ++
