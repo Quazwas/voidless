@@ -61,6 +61,10 @@
      <Compile Include="Assets\Scripts\configs\shipProperties.cs" />
      <Compile Include="Assets\Scripts\configs\weaponSelection.cs" />
      <Compile Include="Assets\Scripts\configs\wepProperties.cs" />
+     <Compile Include="Assets\Scripts\recieveDamage.cs" />
+     <Compile Include="Assets\Scripts\weapons\cannonCollision.cs" />
+     <Compile Include="Assets\Scripts\weapons\homingMissile.cs" />
+     <Compile Include="Assets\Scripts\weapons\projProperties.cs" />
      <Compile Include="Assets\Scripts\weapons\weaponCannons.cs" />
      <Compile Include="Assets\Scripts\weapons\weaponPhasers.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">

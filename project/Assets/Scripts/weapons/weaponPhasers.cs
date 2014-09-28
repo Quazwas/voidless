@@ -33,8 +33,8 @@ public class weaponPhasers : MonoBehaviour {
 					//RaycastHit hit;
 					GameObject clone;
 					clone = Network.Instantiate(phaseNull, muzzle.transform.position, muzzle.transform.rotation, 0) as GameObject;
-					nextFrameShift=true;
-					prevClone=clone;
+					nextFrameShift = true;
+					prevClone = clone;
 					//prevRay=ray;
 					//prevHit=hit;
 				}

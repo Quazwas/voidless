@@ -3,6 +3,7 @@ using System.Collections;
 
 public class makeShip : MonoBehaviour {
 	public GameObject worldNull;
+	float hull=100;
 	int[] wepLocs;
 	void Awake() {
 		worldNull = GameObject.Find("worldNull");
@@ -23,6 +24,18 @@ public class makeShip : MonoBehaviour {
 		Color col = new Color(colVector.x,colVector.y,colVector.z);
 		foreach(Transform child in this.transform) {
 			child.renderer.material.color=col;
+		}
+	}
+
+	[RPC]
+	void modHull(float modAmnt) {
+		hull+=modAmnt;
+		Debug.Log(hull);
+	}
+
+	void OnCollisionEnter(Collision collision) {
+		if(collision.gameObject.tag=="Bullet") {
+			networkView.RPC("modHull", RPCMode.AllBuffered, collision.gameObject.GetComponent<projProperties>().damage);
 		}
 	}
 
