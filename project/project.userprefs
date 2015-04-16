@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Networking\networkManager.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\project_grid20\Assets\testWorld.cs">
     <Files>
-      <File FileName="project.sln" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Networking\networkManager.cs" Line="16" Column="1" />
-      <File FileName="Assets\Scripts\configs\weaponSelection.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Networking\networkInterface.cs" Line="1" Column="1" />
+      <File FileName="..\..\project_grid20\Assets\testWorld.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

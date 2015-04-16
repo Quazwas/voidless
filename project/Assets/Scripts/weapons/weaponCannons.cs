@@ -17,7 +17,7 @@ public class weaponCannons : MonoBehaviour {
 		if(Network.isClient || Network.isServer) {
 			if(ship.networkView.isMine) {
 				if(Input.GetButtonDown("secondary")) {
-					Debug.Log("Secondary");
+					//Debug.Log("Secondary");
 					GameObject clone;
 					clone = Network.Instantiate(projectile, muzzle.transform.position, muzzle.transform.rotation, 0) as GameObject;
 					clone.rigidbody.velocity=ship.rigidbody.velocity;

@@ -12,7 +12,11 @@ public class cannonCollision : MonoBehaviour {
 	void Update () {
 	
 	}
-	void OnCollisionEnter() {
-
+	void OnCollisionEnter(Collision collision) {
+		if(collision.gameObject.tag=="Player") {
+			Debug.Log("Hit Player");
+			//networkView.RPC("damage", RPCMode.Server, gameObject.GetComponent<projProperties>().damage);
+			collision.gameObject.GetComponent<variableProperties>().damage(gameObject.GetComponent<projProperties>().damage);
+		}
 	}
 }

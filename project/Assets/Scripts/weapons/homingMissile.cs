@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class homingMissile : MonoBehaviour {
-	GameObject[] ships;
+	/*GameObject[] ships;
 	void Start() {
 		ships = GameObject.FindGameObjectsWithTag("Player");
 	}
@@ -17,9 +17,9 @@ public class homingMissile : MonoBehaviour {
 				}
 			}
 		}
-		Vector3 direction = cShip.transform.position-this.transform.position;
+		Vector3 direction = new Vector3(cShip.transform.position.x-this.transform.position.x,cShip.transform.position.y-this.transform.position.y,cShip.transform.position.z-this.transform.position.z);
 		Debug.Log(direction.x);
 		direction = direction.normalized;
 		rigidbody.AddForce(direction*5000);
-	}
+	}*/
 }

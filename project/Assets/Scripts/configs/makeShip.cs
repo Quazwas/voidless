@@ -13,7 +13,7 @@ public class makeShip : MonoBehaviour {
 		//Debug.Log(wepID.ToString()+nodeID.ToString());
 		GameObject clone;
 		GameObject[] nodes = GetComponent<shipProperties>().nodes;
-		Debug.Log(worldNull.GetComponent<wepProperties>().weapons.Length.ToString());
+		//Debug.Log(worldNull.GetComponent<wepProperties>().weapons.Length.ToString());
 		clone = Instantiate(worldNull.GetComponent<wepProperties>().weapons[wepID].objPrefab, nodes[nodeID].transform.position, nodes[nodeID].transform.rotation) as GameObject;
 		clone.transform.parent=nodes[nodeID].transform;
 		//clone.GetComponent<weapons>().ship=this.gameObject;
@@ -30,7 +30,7 @@ public class makeShip : MonoBehaviour {
 	[RPC]
 	void modHull(float modAmnt) {
 		hull+=modAmnt;
-		Debug.Log(hull);
+		//Debug.Log(hull);
 	}
 
 	void OnCollisionEnter(Collision collision) {
@@ -47,7 +47,7 @@ public class makeShip : MonoBehaviour {
 	//wepLoc
 	public void call() {
 		int[] wepLocs=worldNull.GetComponent<weaponSelection>().wepLocs;
-		Debug.Log(wepLocs.Length);
+		//Debug.Log(wepLocs.Length);
 		for(int i = 0; i<wepLocs.Length; i++) {
 			networkView.RPC("addWeapon", RPCMode.AllBuffered, i, wepLocs[i]);
 		}
